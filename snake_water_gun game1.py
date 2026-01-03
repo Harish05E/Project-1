@@ -70,22 +70,3 @@ def myMenu():
     return ch
 
 
-# Project 2 (calculator by using function and clearing the concept of return function)
-def calculation():
-    ch = myMenu() # prints the menu the value returned will be assigned to the variable ch here
-    num1 = int(input("Enter a number you want to carry out operations:- "))
-    num2 = int(input("Enter another number you want to carry out operations:- "))
-    print("")
-    if(ch == 1):
-        result = addition(num1,num2)
-
-    elif(ch == 2):
-        result = substraction(num1,num2)
-    
-    elif(ch == 3):
-        result = multiplication(num1,num2)
-
-    print("so the result after performing the operation is:- ",result)
-
-
-calculation()
